@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+body{
+    background-image: url(download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.informacion h1{
+    color: aqua;
+    font-size: 3.4rem;
+}
+.informacion h2{
+    color: white;
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-weight: bolder;
+}
+.informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    padding-left: 8rem;
+}
+.informacion button{
+    border: solid white 2px;
+    width: 14rem;
+    color: white;
+    font-size: 2.5rem;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}
+header{
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+}
+.login{
+    border: solid rgb(255, 255, 255) 2px;
+    width: 14rem;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.5s ease;
+
+}
+
+.modal-dialog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.modal-header{
+    background-color: aqua;
+}
+
+.modal-body input{
+    border-radius: 0.5rem;
+    border: 0.1px solid rgb(175, 175, 175);
+}
+
+
+.modal-body label{
+    font-weight: bolder;
+}

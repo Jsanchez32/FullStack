@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.laterarIzquierdo{
+    width: 20%;
+    background-color: aliceblue;
+    height: 100;
+    border-radius: 1rem;
+}
+
+.contenido{
+    width: 80%;
+    border-radius: 1rem;
+    background-color: rgb(210, 226, 240) !important;
+    margin-left: 5px;
+    height: 100vh;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.contenido img{
+    height: 5rem;
+}
+
+.tabla{
+    border-radius: 1rem !important;
+    width: 95%;
+}
+.tabla th{
+    background-color: rgb(210, 226, 240);
+}
+.tabla td{
+    background-color: aliceblue;
+}
+.imagen{
+    border-radius: 100%;
+    width: 50%;
+    height: 50%;
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size:large;  font-weight: 800;
+}
+
+
+.menus{
+    display: flex;
+    flex-direction: column;
+}
+.menus a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    transition: all 0.2s ease;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.salir{
+    margin: 10px;
+}
+
+.menus a:hover{
+    background-color: rgb(181, 203, 217);
+    border-radius: 1rem;
+    width: 50%;
+}
